@@ -9,7 +9,7 @@
 
 [rewrite_local]
 
-^https?:\/\/(.*.*.)\/users\/me url script-response-body https://raw.githubusercontent.com/amhanpp/stucool/Busuu.js
+^https?:\/\/(.*.*.)\/users\/me url script-response-body https://raw.githubusercontent.com/amhanpp/stucool/main/Busuu.js
 
 hostname = *.boshu.*,*.bosuu.com,*.busuu.com
 
