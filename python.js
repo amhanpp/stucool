@@ -4,7 +4,7 @@
 感谢大佬 自留备份
 *******************************
 [rewrite_local]
-^http[s]?:\/\/book.haoapp8.cn\/API\/programming\/v5\/booklist.php url script-response-body https://raw.githubusercontent.com/stucool/python.js
+^http[s]?:\/\/book.haoapp8.cn\/API\/programming\/v5\/booklist.php url script-response-body https://raw.githubusercontent.com/amhanpp/stucool/main/python.js
 [mitm] 
 hostname = book.haoapp8.cn
 
