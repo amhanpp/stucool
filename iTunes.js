@@ -1,17 +1,9 @@
 /*************************************
-
 项目名称：iTunes 系列解锁合集
-下载地址：https://too.st/57g
-更新时间：2023-08-18
-脚本作者：chxm1023
-电报频道：https://t.me/chxm1023
-使用声明：⚠️仅供参考，🈲转载与售卖！
-已解锁App传送门：https://too.st/5jF
-
 **************************************
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/iTunes.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/amhanpp/stucool/main/iTunes.js
 
 [mitm]
 hostname = buy.itunes.apple.com
