@@ -6,7 +6,7 @@
 软件版本：26.2.0
 感谢大佬 自留备份
 *******************************
-
+ 
 [rewrite_local]
 
 ^https?:\/\/(.*.*.)\/users\/me url script-response-body https://raw.githubusercontent.com/amhanpp/stucool/main/Busuu.js
