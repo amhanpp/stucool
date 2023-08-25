@@ -1,6 +1,6 @@
 /***
 effie解锁订阅--Eric
-
+#sync   https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/effie.js
 [rewrite_local]
 ^https://api.effie.(co|pro)/api/v1/user/member url script-response-body https://raw.githubusercontent.com/amhanpp/stucool/main/effie.js
 [mitm] 
