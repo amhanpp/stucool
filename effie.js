@@ -2,8 +2,7 @@
 effie解锁订阅--Eric
 
 [rewrite_local]
-^https://api.effie.(co|pro)/api/v1/user/member url script-response-body https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/effie.js
-
+^https://api.effie.(co|pro)/api/v1/user/member url script-response-body https://raw.githubusercontent.com/amhanpp/stucool/main/effie.js
 [mitm] 
 hostname = %APPEND% api.effie.pro,api.effie.co
 ***/
