@@ -15,7 +15,7 @@
 [rewrite_local]
 
 # > 养基宝SVIP@ddgksf2013
-^https?:\/\/.*yangjibao\.com\/(wxapi\/)?account url script-response-body https://gist.githubusercontent.com/ddgksf2013/a0a7607f18a36833762d6cc1b9555bfb/raw/yangjibao.vip.js
+^https?:\/\/.*yangjibao\.com\/(wxapi\/)?account url script-response-body https://raw.githubusercontent.com/amhanpp/stucool/main/yjb.js
 
 [mitm]
 
