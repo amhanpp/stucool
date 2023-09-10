@@ -1,55 +1,23 @@
-/***********************************************
 
-> 应用名称：养基宝SVIP
-> 脚本作者：@ddgksf2013
-> 微信账号：墨鱼手记
-> 更新时间：2023-08-09
-> 通知频道：https://t.me/ddgksf2021
-> 贡献投稿：https://t.me/ddgksf2013_bot
-> 问题反馈：ddgksf2013@163.com
-> 特别提醒：请勿分享他人！！
-> 特别说明：⚠️⚠️⚠️
-          本脚本仅供学习交流使用，禁止转载售卖
-          ⚠️⚠️⚠️
+/*************************************
+
+项目名称：养基宝
+下载地址：https://t.cn/A6OIswyz
+脚本作者：chxm1023
+电报频道：https://t.me/chxm1023
+使用声明：⚠️仅供参考，🈲转载与售卖！
+
+**************************************
 
 [rewrite_local]
+^https?:\/\/.*\.yangjibao\.com url script-response-body https://raw.githubusercontent.com/amhanpp/stucool/main/yjb.js
 
-# > 养基宝SVIP@ddgksf2013
-^https?:\/\/.*yangjibao\.com\/(wxapi\/)?account url script-response-body https://raw.githubusercontent.com/amhanpp/stucool/main/yjb.js
 
 [mitm]
-
 hostname = *.yangjibao.com
 
-***********************************************/
+*************************************/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var body = $response.body.replace(/vip_label":false/g, 'vip_label":true')
-						 .replace(/vip_expiry_date":null/g, 'vip_expiry_date":"2099-12-31"')
-						 .replace(/is_pay":false/g, 'is_pay":true');
-$done({ body })
+body = $response.body.replace(/\"vip_label":\w+/g, '\"vip_label":true').replace(/\"open_free_vip_sign":\w+/g, '\"open_free_vip_sign":true').replace(/\"subscribe_status":\d+/g, '\"subscribe_status":1').replace(/\"is_pay":\w+/g, '\"is_pay":true').replace(/\"vip_expiry_date":\w+/g, '\"vip_expiry_date":"2099-09-09"').replace(/\"message":"会员已过期"/g, '\"message":"SUCCESS"').replace(/\"code":400/g, '\"code":200').replace(/\"open_account":\d+/g, '\"open_account":true').replace(/\"vip_kefu_qrcode":\w+/g, '\"vip_kefu_qrcode":true').replace(/\"show_bkxh":\w+/g, '\"show_bkxh":true').replace(/\"open_account":\d+/g, '\"open_account":true');
+$done({body});
