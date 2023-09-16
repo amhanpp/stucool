@@ -1,6 +1,6 @@
 [rewrite_local]
-^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url https://raw.githubusercontent.com/amhanpp/stucool/main/gn.snippet
-^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url https://raw.githubusercontent.com/amhanpp/stucool/main/gn.snippet
+^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/amhanpp/stucool/main/gn.snippet
+^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/amhanpp/stucool/main/gn.snippet
 [mitm]
 hostname = isi.csan.goodnotes.com
 
