@@ -18,6 +18,7 @@ TG频道群：https://t.me/py996
 ^https:\/\/payment-api\.lingvist\.com\/1\.4\/user\/services url script-response-body https://raw.githubusercontent.com/amhanpp/stucool/main/Lingvist.js
 
 [mitm] 
+[mitm] 
 
 hostname = payment-api.lingvist.com
 
