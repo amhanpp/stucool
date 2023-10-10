@@ -22,7 +22,7 @@ for (var key in $request.headers) {
 }
 var UA = $request.headers['user-agent'];
 var uaProductMapping = {
-  'MyMemoryDebris': {product_id: 'com.chenxi.shannian.superNian'},
+  'ChickAlarmClock': {product_id: 'Pro_M01'},
   'Mindkit': {product_id: 'mindkit_yearly'}, 
 
 };
