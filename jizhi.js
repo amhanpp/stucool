@@ -3,7 +3,7 @@
 几枝：https://apps.apple.com/app/id1552874203
 
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/amhanpp/stucool/main/jizhi.js
+//^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/amhanpp/stucool/main/jizhi.js
 //^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-request-header https://raw.githubusercontent.com/amhanpp/stucool/main/jizhi.js
 
 [MITM]
