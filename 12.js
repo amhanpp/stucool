@@ -15,7 +15,7 @@ TG频道群：https://t.me/py996
 
 [rewrite_local]
 
-^http[s]?:\/\/api.wakeyoga.com url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/wakeyoga.js
+^http[s]?:\/\/api.wakeyoga.com url script-response-body https://raw.githubusercontent.com/amhanpp/stucool/main/12.js
 
 [mitm] 
 
